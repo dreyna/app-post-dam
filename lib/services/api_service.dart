@@ -16,7 +16,7 @@ class ApiService {
       throw Exception('Error ${response.statusCode}: No se pudo leer los datos');
     }
   } catch (e) {
-    throw Exception('❌ Error de conexión: $e');
+    throw Exception('Error de conexión: $e');
   }
 }
 
